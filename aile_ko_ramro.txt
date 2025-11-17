@@ -1,6 +1,0 @@
-1. paila sticker_to_rgb565.py file garyam that takes an image (sticker) and changes it to rgb565 format
-
-2. tespaxi csv_to_image_rescue.py aile samma ko ramro .py file ho dsv file lai csv banako csv read garera
-image banauna ko lagi
-
-3. 

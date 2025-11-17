@@ -1,3 +1,13 @@
+Adverserial patch attack
+
+Entire image is used as an adverserial patch and it is inserted into a new image that is captured so that it gets misclassified.
+
+The image of a cat under the folder images is used as a sticker (adverserial patch) that would be inserted into the picture. This will happen when we insert the sticker's pixel data into the image's pixel data. So we are trying to do adverserial attack during the RAW pixel formation of an image (before a final image is formed in the form of jpeg, jpg, png or any other formats).
+
+The dsl files are actually signal files of images where we are working on for this adverserial patch. I got this data from my friend. You can checkout his repo to know further about how the data was acquired and from which hardware here: https://github.com/TNeutron/ESP32-CAM---DVP-Image-Signal-in-RGB565-and-JPEG
+
+
+
 command in the terminal to run csv_to_image_rescue:
 
 python3 csv_to_image_rescue.py \
